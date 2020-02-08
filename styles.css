@@ -1,0 +1,35 @@
+body {
+  font-family: Nunito, Roboto, 'Roboto Condensed', sans-serif;
+  background: #fcfcfc;
+  color: #444444;
+}
+
+.container {
+  display: grid;
+  /* Creates 3 Rows */
+  grid-template-rows: 100px auto;
+  /* Creates 12 columns like Bootstrap */
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 5px;
+}
+.navbar {
+  grid-column: 2 / 12;
+}
+.content {
+  grid-column: 1 / 12;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', Roboto, 'Helvetica Neue', serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+li {
+  padding: 15px;
+  background: lightcoral;
+  margin-bottom: 10px;
+}
